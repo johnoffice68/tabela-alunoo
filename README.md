@@ -11,9 +11,9 @@ create database escola;
 
 use database escola;
 
-create table aluno (
-	ID serial primary key,
-	nome varchar(255),
-	email varchar(255),
-	endereco varchar(255)
+create table aluno (<br>
+				ID serial primary key,<br>
+				nome varchar(255),<br>
+				email varchar(255),<br>
+				endereco varchar(255)<br>
 );
